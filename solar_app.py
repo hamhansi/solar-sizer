@@ -111,5 +111,5 @@ st.info("""
 - This is a first-order planning estimate.
 - Always verify Peak Sun Hours with NREL PVWatts or local data.
 - Check roof space, shading, local codes, and utility interconnection rules.
-- For off-grid systems, size using the worst month of the year.
+- For off-grid systems, size using the worst month of the yea.
 """)
