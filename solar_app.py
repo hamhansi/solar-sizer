@@ -81,7 +81,7 @@ estimated_production = actual_array_kw * peak_sun_hours * performance_ratio
 
 battery_kwh = None
 if days_autonomy > 0:
-    battery_kwh = (daily_kwh * days_autonomy) / (battery_efficiency + battery_dod)
+    battery_kwh = math.ceil((daily_kwh * days_autonomy) / (battery_efficiency + battery_dod))
 
 inverter_kw = actual_array_kw * inverter_margin
 
