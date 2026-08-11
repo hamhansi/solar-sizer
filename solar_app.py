@@ -92,7 +92,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.metric("Recommended Array", f"{array_kw: .2f} kW")
-    st.metric("Number of Panels", f"{num_panels} panels")
+    st.metric("Number of Panels", f"{num_panels} panel(s)")
 
 with col2:
     st.metric("Actual Array Size", f"{actual_array_kw: .2f} kW")
