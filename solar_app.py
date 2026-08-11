@@ -83,7 +83,7 @@ battery_kwh = None
 if days_autonomy > 0:
     battery_kwh = math.ceil((daily_kwh * days_autonomy) / (battery_efficiency + battery_dod))
 
-inverter_kw = actual_array_kw * inverter_margin
+inverter_kw = math.ceil(actual_array_kw * inverter_margin)
 
 #Results
 st.header("Results")
